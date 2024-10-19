@@ -137,8 +137,8 @@ iframe {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #e4fc5b;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 0;
     position: relative;
