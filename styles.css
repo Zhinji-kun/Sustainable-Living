@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 18px;
+    background-color: rgb(240, 240, 240);
+}
+
+nav {
+    background-color: #2e8b57; 
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #80c2f7;
+}
+
+
+header {
+    background-color: #2e8b57;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #014d21;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.1em; 
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    color: #555;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.colif {
+    float: right;
+    margin-right: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.garde {
+    float: left;
+    margin-right: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.backgro {
+    float: right;
+    margin-right: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+#tips {
+    padding: 10px;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#video { 
+    text-align: center;
+    margin: 40px 0;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
